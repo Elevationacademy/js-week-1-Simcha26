@@ -48,5 +48,5 @@ if(isVIP || cash > 300)
 }
 else
 {
-    console.log("your kind isn't welcoime here")
+    console.log("Have a nice day")
 }
