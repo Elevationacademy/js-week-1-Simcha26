@@ -1,4 +1,4 @@
-///// Exercise_1/////
+// ///// Exercise_1/////
 p1 = {
 name: "bob",
 age: 20,
@@ -22,7 +22,31 @@ let myList = [
     {item: "obj1", count: 15},
     {item: "obj2", count: 11}
 ]
-let addItem = "obj3"
-myList[0] += addItem
-myList[1].splice
+myList[0].count = 72
+myList.splice(1, 1)
 console.log(myList)
+
+////// Exercise_3//////
+
+let myOtherList = [
+    {Item2: "obj3"},
+    {Item2: "obj4"}
+]
+
+myList.push(myOtherList)
+
+///// Exercise_4
+
+let library = {
+    books: [
+        bookA = {
+            title: "book_a",
+            author: "author_a"
+        },
+        bookB = {
+            title: "book_b",
+            author: "author_b"
+        }
+    ]
+}
+myList.push (...library.books)
