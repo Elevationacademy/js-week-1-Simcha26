@@ -1,0 +1,27 @@
+#container {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    display: inline-block;
+}
+
+.items{
+    background-color: red;
+}
+
+#item1 {
+    height: 10px;
+    width: 300px;
+    position: relative;
+    top: 50px;
+}
+
+#item2 {
+    height: 300px;
+    width: 10px;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+
